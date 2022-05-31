@@ -704,7 +704,6 @@ line:<><svg width={155} height={8} viewBox="0 0 155 8" fill="none" xmlns="http:/
   },
   {
     textsliderview:{"display":"block"},
-
     line:<><svg width={295} height={8} viewBox="0 0 295 8" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fillRule="evenodd" clipRule="evenodd" d="M0 0H147.5H291.295H295V8H0V0Z" fill="url(#paint0_linear_179_113)" />
     <defs>
@@ -901,6 +900,7 @@ line:<><svg width={155} height={8} viewBox="0 0 155 8" fill="none" xmlns="http:/
   </svg></>,
     displaysli: {"display":"block"},
     textbluebutton:"Continue",
+
   },
   {
     line:<><svg width={375} height={8} viewBox="0 0 375 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1013,6 +1013,8 @@ line:<><svg width={155} height={8} viewBox="0 0 155 8" fill="none" xmlns="http:/
     <path fillRule="evenodd" clipRule="evenodd" d="M131.74 2.50559V1.80597H132.239C132.637 1.80597 132.836 1.90563 132.836 2.20541C132.836 2.40553 132.637 2.50559 132.338 2.50559H131.74ZM131.441 1.50622V3.90566H131.74V2.90546H132.139L132.836 3.90566H133.235L132.538 2.8058C132.936 2.8058 133.136 2.50562 133.136 2.20545C133.136 1.70594 132.836 1.50622 132.338 1.50622H131.441ZM132.139 0.905827H132.239C133.136 0.905827 133.933 1.70591 133.933 2.7057C133.933 3.7055 133.136 4.40552 132.239 4.40552C131.241 4.40552 130.544 3.7055 130.544 2.7057C130.544 1.70591 131.241 1.00589 132.139 0.905827ZM132.239 0.606079C131.042 0.606079 130.045 1.50622 130.045 2.70574C130.045 3.90566 131.042 4.8054 132.239 4.8054C133.435 4.8054 134.332 3.90566 134.332 2.70574C134.332 1.50622 133.335 0.606079 132.239 0.606079Z" fill="#3A4850" />
   </svg></>,
     textbluebutton:"Continue",
+    displaysli: {"display":"block"},
+
   },
   {
     textbluebutton:"Start Now",
