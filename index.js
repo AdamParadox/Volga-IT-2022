@@ -2254,7 +2254,7 @@ const reducer = (state, action) => {
       if (state.currentScreenIndex === 18)
       return {
           ...state,
-          screens: data.brandstart="brand",
+          screens: data.brandstart="brand=",
           screens: data.brandend="&",
           currentScreenIndex: state.currentScreenIndex = 19,
       }
@@ -3148,7 +3148,16 @@ const reducer = (state, action) => {
 
 
 
+if (action.type === 'screen33') {
+  if(state.currentScreenIndex === 6)
+  return {
+      ...state,   
+      screens:               data.screen3p2 =""      ,
+      currentScreenIndex: state.currentScreenIndex = 7,
+  }
 
+
+}
 
 
 
@@ -4177,7 +4186,7 @@ You can pack more than one. To select, press 1 or 2 times
  </div>
 
  <div className='bottomtextscreen3p2' style={data.displaybottomtextscreen3p2}>
- <div className="bottom_text bottom_text_3p1" onClick={()=> dispatch({type: "NEXT_SCREEN_NOT_VALUE"})} >Skip</div>
+ <div className="bottom_text bottom_text_3p1" onClick={()=> dispatch({type: "screen33"})} >Skip</div>
  </div>
 
  
