@@ -788,8 +788,7 @@ line:<><svg width={155} height={8} viewBox="0 0 155 8" fill="none" xmlns="http:/
     Screen9:'',
   },
   {
-    textsliderview:{"display":"block"},
-
+    textsliderview:{"display":"block","margin-top":"24px"},
     line:<><svg width={375} height={8} viewBox="0 0 375 8" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fillRule="evenodd" clipRule="evenodd" d="M0 0H187.5H370.29H375V8H0V0Z" fill="url(#paint0_linear_179_113)" />
     <defs>
@@ -912,8 +911,7 @@ line:<><svg width={155} height={8} viewBox="0 0 155 8" fill="none" xmlns="http:/
       </linearGradient>
     </defs>
   </svg></>,
-    textsliderview:{"display":"block"},
-    displaysli222:{"display":"block"},
+ textsliderview:{"display":"block","margin-top":"24px"},    displaysli222:{"display":"block"},
     class_elem:"elem",
     displayslider_Two:{"display":"block"},
     textbluebutton:"Continue",
@@ -3163,6 +3161,12 @@ const reducer = (state, action) => {
           screens: data.screen1="",
           currentScreenIndex: state.currentScreenIndex = 3,
       }
+      if(state.currentScreenIndex === 5)
+      return {
+          ...state,   
+          currentScreenIndex: state.currentScreenIndex = 6,
+      }
+
   }
   
   if (action.type === 'NEXT_SCREEN_SCREEN_2') {
